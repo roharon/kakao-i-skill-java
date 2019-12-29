@@ -1,25 +1,6 @@
 package com.roharon.huformationi.wrapper.component;
 
-public class Component {
+public interface Component {
 
-    class simpleText {
-
-    }
-
-    class simpleImage {
-
-    }
-
-    class basicCard {
-
-    }
-
-    class commerceCard {
-
-    }
-
-    class listCard {
-
-    }
 }
 
