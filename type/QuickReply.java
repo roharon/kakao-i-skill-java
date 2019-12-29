@@ -1,11 +1,12 @@
 package com.roharon.huformationi.wrapper.type;
 
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Getter
+@NoArgsConstructor
+@Builder
+@ToString
 public class QuickReply {
 
     private String label;
@@ -13,5 +14,4 @@ public class QuickReply {
     private String messageText;
     private String blockId;
     private Object extra;
-
 }
