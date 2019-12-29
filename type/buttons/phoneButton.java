@@ -1,4 +1,6 @@
 package com.roharon.huformationi.wrapper.type.buttons;
 
-public class phoneButton {
+import com.roharon.huformationi.wrapper.type.Button;
+
+public class phoneButton implements Button {
 }

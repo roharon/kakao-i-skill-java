@@ -1,4 +1,6 @@
 package com.roharon.huformationi.wrapper.type.buttons;
 
-public class webLinkButton {
+import com.roharon.huformationi.wrapper.type.Button;
+
+public class webLinkButton implements Button {
 }

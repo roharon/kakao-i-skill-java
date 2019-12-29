@@ -1,4 +1,6 @@
 package com.roharon.huformationi.wrapper.type.buttons;
 
-public class blockButton {
+import com.roharon.huformationi.wrapper.type.Button;
+
+public class blockButton implements Button {
 }
