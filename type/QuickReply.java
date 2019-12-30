@@ -4,8 +4,9 @@ import lombok.*;
 
 @Setter
 @Getter
-@NoArgsConstructor
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @ToString
 public class QuickReply {
 
