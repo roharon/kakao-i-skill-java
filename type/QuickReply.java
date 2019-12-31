@@ -2,11 +2,8 @@ package com.roharon.huformationi.wrapper.type;
 
 import lombok.*;
 
-@Setter
 @Getter
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
 public class QuickReply {
 

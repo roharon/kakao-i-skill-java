@@ -3,9 +3,6 @@ package com.roharon.huformationi.wrapper.type.subtype;
 import lombok.*;
 
 @Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @ToString
 public class Link {

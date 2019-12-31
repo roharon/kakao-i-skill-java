@@ -4,9 +4,6 @@ import com.roharon.huformationi.wrapper.type.subtype.Link;
 import lombok.*;
 
 @Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @ToString
 public class Thumbnail {

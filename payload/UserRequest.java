@@ -8,6 +8,7 @@ import lombok.ToString;
 
 @Getter
 @Builder
+@ToString
 public class UserRequest{
 
     public Block block;

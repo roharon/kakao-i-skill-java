@@ -1,15 +1,13 @@
 package com.roharon.huformationi.wrapper.payload;
 
 import com.roharon.huformationi.wrapper.type.DetailParam;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Map;
 
 @Getter
 @Builder
+@ToString
 public class Action{
 
     String id;
