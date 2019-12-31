@@ -1,13 +1,12 @@
 package com.roharon.huformationi.wrapper.component;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class SimpleText implements Component {
     private String text;
-    private String altText;
 }
