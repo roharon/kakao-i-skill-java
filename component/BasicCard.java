@@ -14,14 +14,12 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 @ToString
-public class BasicCard implements Component{
+public class BasicCard implements Component, CanCarousel{
 
     private String title;
     private String description;
     private Thumbnail thumbnaill;
     private Profile profile;
     private Social social;
-    //TODO Thumbnail, Profile, Social 클래스 구현
-
     private List<Button> buttons;
 }

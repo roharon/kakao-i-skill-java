@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 @ToString
-public class CommerceCard implements Component {
+public class CommerceCard implements Component, CanCarousel {
 
     private String description;
     private Integer price;
