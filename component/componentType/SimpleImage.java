@@ -1,12 +1,14 @@
-package com.roharon.huformationi.wrapper.component;
+package com.roharon.huformationi.wrapper.component.componentType;
 
+import com.roharon.huformationi.wrapper.component.Component;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
-@Setter
 @Builder
+@ToString
 public class SimpleImage implements Component {
 
     private String imageUrl;

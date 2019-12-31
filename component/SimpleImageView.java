@@ -1,5 +1,6 @@
 package com.roharon.huformationi.wrapper.component;
 
+import com.roharon.huformationi.wrapper.component.componentType.SimpleImage;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -7,9 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class SimpleImage implements Component {
+public class SimpleImageView implements Component {
 
-    private String imageUrl;
-    private String altText;
-
+    private SimpleImage simpleImage;
 }

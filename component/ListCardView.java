@@ -1,20 +1,14 @@
 package com.roharon.huformationi.wrapper.component;
 
-import com.roharon.huformationi.wrapper.type.Button;
-import com.roharon.huformationi.wrapper.type.ListItem;
+import com.roharon.huformationi.wrapper.component.componentType.ListCard;
+
 import lombok.*;
 
-import java.util.List;
 
 @Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @ToString
-public class ListCard implements Component{
+public class ListCardView implements Component{
 
-    private ListItem header;
-    private ListItem items;
-    private List<Button> buttons;
+    private ListCard listCard;
 }

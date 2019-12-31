@@ -1,14 +1,12 @@
-package com.roharon.huformationi.wrapper.component;
+package com.roharon.huformationi.wrapper.component.componentType;
 
+import com.roharon.huformationi.wrapper.component.CanCarousel;
 import com.roharon.huformationi.wrapper.type.CarouselHeader;
 import lombok.*;
 
 import java.util.List;
 
 @Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
 @Builder
 @ToString
 public class Carousel {
