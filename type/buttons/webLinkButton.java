@@ -9,4 +9,8 @@ import lombok.ToString;
 @Builder
 @ToString
 public class webLinkButton implements Button {
+
+    @Builder.Default
+    private String action = "webLink";
+    private String webLinkUrl;
 }

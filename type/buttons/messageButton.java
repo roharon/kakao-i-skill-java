@@ -9,4 +9,8 @@ import lombok.ToString;
 @Builder
 @ToString
 public class messageButton implements Button {
+
+    @Builder.Default
+    private String action = "message";
+    private String messageText;
 }

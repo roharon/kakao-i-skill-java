@@ -8,7 +8,8 @@ import lombok.*;
 public class QuickReply {
 
     private String label;
-    private String action;
+    @Builder.Default
+    private String action = "message";
     private String messageText;
     private String blockId;
     private Object extra;

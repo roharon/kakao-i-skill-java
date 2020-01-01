@@ -9,4 +9,9 @@ import lombok.ToString;
 @Builder
 @ToString
 public class phoneButton implements Button {
+
+    private String label;
+    @Builder.Default
+    private String action = "phone";
+    private String phoneNumber;
 }
