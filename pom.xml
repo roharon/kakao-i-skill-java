@@ -33,17 +33,19 @@
     </scm>
 
     <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
         <repository>
-            <id>kakao-i-skill</id>
-            <url>https://api.bintray.com/maven/roharon/kakao-i-skill/kakaoi/;publish=1</url>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <bintray.repo>roharon/kakao-i-skill</bintray.repo>
-        <bintray.package>kakaoi</bintray.package>
     </properties>
 
     <build>
@@ -90,11 +92,10 @@
                 </executions>
             </plugin>
 
-            <!-- GPG sign -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
+                <version>1.4</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
@@ -105,6 +106,9 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- GPG sign -->
+
         </plugins>
     </build>
 
