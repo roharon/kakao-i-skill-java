@@ -1,6 +1,6 @@
-package roharon.kakaoi.component;
+package org.roharon.kakaoi.component;
 
-import com.roharon.huformationi.wrapper.component.componentType.Carousel;
+import org.roharon.kakaoi.component.componentType.Carousel;
 import lombok.*;
 
 

@@ -1,6 +1,6 @@
-package roharon.kakaoi.component;
+package org.roharon.kakaoi.component;
 
-import com.roharon.huformationi.wrapper.component.componentType.SimpleImage;
+import org.roharon.kakaoi.component.componentType.SimpleImage;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

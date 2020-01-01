@@ -1,10 +1,10 @@
-package roharon.kakaoi.component.componentType;
+package org.roharon.kakaoi.component.componentType;
 
-import com.roharon.huformationi.wrapper.component.Component;
-import com.roharon.huformationi.wrapper.type.Button;
-import com.roharon.huformationi.wrapper.type.ListItem;
+import org.roharon.kakaoi.component.Component;
+import org.roharon.kakaoi.type.Button;
+import org.roharon.kakaoi.type.ListItem;
+
 import lombok.*;
-import roharon.kakaoi.component.Component;
 
 import java.util.List;
 

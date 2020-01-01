@@ -1,8 +1,7 @@
-package roharon.kakaoi.component.componentType;
+package org.roharon.kakaoi.component.componentType;
 
-import com.roharon.huformationi.wrapper.component.Component;
+import org.roharon.kakaoi.component.Component;
 import lombok.*;
-import roharon.kakaoi.component.Component;
 
 @Getter
 @Builder

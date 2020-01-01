@@ -1,6 +1,6 @@
-package roharon.kakaoi.payload;
+package org.roharon.kakaoi.payload;
 
-import com.roharon.huformationi.wrapper.type.DetailParam;
+import org.roharon.kakaoi.type.DetailParam;
 import lombok.*;
 
 import java.util.Map;

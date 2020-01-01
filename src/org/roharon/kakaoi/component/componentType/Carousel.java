@@ -1,11 +1,10 @@
-package roharon.kakaoi.component.componentType;
+package org.roharon.kakaoi.component.componentType;
 
-import com.roharon.huformationi.wrapper.component.CanCarousel;
-import com.roharon.huformationi.wrapper.component.Component;
-import com.roharon.huformationi.wrapper.type.CarouselHeader;
+import org.roharon.kakaoi.component.CanCarousel;
+import org.roharon.kakaoi.component.Component;
+import org.roharon.kakaoi.type.CarouselHeader;
+
 import lombok.*;
-import roharon.kakaoi.component.CanCarousel;
-import roharon.kakaoi.component.Component;
 
 import java.util.List;
 

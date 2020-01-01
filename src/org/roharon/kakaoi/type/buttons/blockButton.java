@@ -1,10 +1,10 @@
-package roharon.kakaoi.type.buttons;
+package org.roharon.kakaoi.type.buttons;
 
-import com.roharon.huformationi.wrapper.type.Button;
+import org.roharon.kakaoi.type.Button;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
-import roharon.kakaoi.type.Button;
+import org.roharon.kakaoi.type.Button;
 
 @Getter
 @Builder

@@ -1,12 +1,11 @@
-package roharon.kakaoi.type.buttons;
+package org.roharon.kakaoi.type.buttons;
 
-import com.roharon.huformationi.wrapper.type.Button;
-import com.roharon.huformationi.wrapper.type.subtype.Link;
+import org.roharon.kakaoi.type.Button;
+import org.roharon.kakaoi.type.subtype.Link;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
-import roharon.kakaoi.type.Button;
-import roharon.kakaoi.type.subtype.Link;
 
 @Getter
 @Builder

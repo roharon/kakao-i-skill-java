@@ -1,4 +1,4 @@
-package roharon.kakaoi.payload;
+package org.roharon.kakaoi.payload;
 
 import lombok.*;
 

@@ -1,6 +1,6 @@
-package roharon.kakaoi.component;
+package org.roharon.kakaoi.component;
 
-import com.roharon.huformationi.wrapper.component.componentType.SimpleText;
+import org.roharon.kakaoi.component.componentType.SimpleText;
 import lombok.*;
 
 @Getter

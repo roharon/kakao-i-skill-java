@@ -1,4 +1,4 @@
-package roharon.kakaoi.type.subtype;
+package org.roharon.kakaoi.type.subtype;
 
 import lombok.Builder;
 import lombok.Getter;

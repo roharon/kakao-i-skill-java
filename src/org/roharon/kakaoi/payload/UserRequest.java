@@ -1,7 +1,7 @@
-package roharon.kakaoi.payload;
+package org.roharon.kakaoi.payload;
 
-import com.roharon.huformationi.wrapper.type.Block;
-import com.roharon.huformationi.wrapper.type.User;
+import org.roharon.kakaoi.type.Block;
+import org.roharon.kakaoi.type.User;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;

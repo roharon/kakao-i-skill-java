@@ -1,6 +1,6 @@
-package roharon.kakaoi.component;
+package org.roharon.kakaoi.component;
 
-import com.roharon.huformationi.wrapper.component.componentType.ListCard;
+import org.roharon.kakaoi.component.componentType.ListCard;
 
 import lombok.*;
 

@@ -1,6 +1,6 @@
-package roharon.kakaoi.component;
+package org.roharon.kakaoi.component;
 
-import com.roharon.kakaoi.component.componentType.BasicCard;
+import org.roharon.kakaoi.component.componentType.BasicCard;
 import lombok.*;
 
 @Getter
