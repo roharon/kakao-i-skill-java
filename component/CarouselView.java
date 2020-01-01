@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Builder
 @ToString
-public class CarouselView {
+public class CarouselView implements Component{
 
     private Carousel carousel;
 }
