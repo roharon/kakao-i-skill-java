@@ -9,7 +9,8 @@ import lombok.*;
 @ToString
 public class SkillResponse {
 
-    private String version;
+    @Builder.Default
+    private String version = "2.0";
     private SkillTemplate template;
     private ContextControl context;
     private Object data;
