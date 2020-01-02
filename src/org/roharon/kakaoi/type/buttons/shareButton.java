@@ -12,5 +12,5 @@ public class shareButton implements Button {
 
     private String label;
     @Builder.Default
-    private String action = "phone";
+    private String action = "share";
 }
