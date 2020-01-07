@@ -38,8 +38,6 @@ author = 'Aron Roh'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.todo',
-    'sphinx.ext.githubpages',
     'recommonmark',
     'sphinx.ext.autosectionlabel'
 ]
